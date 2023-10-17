@@ -7,7 +7,7 @@ import java.io.IOException;
 public class SequenceTools {
 
     public static boolean writeToFile(
-            FibonacciGenerator generator,
+            LucasGenerator generator,
             int from, int to,
             String fileName) {
         try {
